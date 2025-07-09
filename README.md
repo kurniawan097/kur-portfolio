@@ -28,7 +28,7 @@ Then open [http://localhost:8080](http://localhost:8080) on your browser.
 
 ## Preview
 
-![Preview](https://github.com/milo0w/awa-portfolio/blob/main/preview.png?raw=true)
+![Preview](https://github.com/milo0w/awa-portfolio/blob/main/preview.jpg?raw=true)
 
 ---
 
