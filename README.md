@@ -23,7 +23,9 @@ docker-compose up --build
 
 Then open http://localhost:8080 on your browser.
 
-![image](https://github.com/user-attachments/assets/1d4ee39d-91db-45b4-842d-d8a2b8137ca3)
+## 🔍 Preview
+
+![Preview](https://github.com/milo0w/awa-portfolio/blob/main/preview.png?raw=true)
 
 Contact Me
 nasywaurmilow@gmail.com
