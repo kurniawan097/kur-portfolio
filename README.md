@@ -1,12 +1,32 @@
-# React + Vite
+# 💼 AWA Portfolio – Nasywa Kamila
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi! I’m **Nasywa Kamila**, a 6th semester Informatics student at President University with strong interest in **Artificial Intelligence** and **Web Development**.  
+This is my personal portfolio website built using **Vite** and **Docker**, showcasing my projects, skills, and tech capabilities.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚙️ **Vite** – Lightning-fast frontend tooling
+- 🎨 **HTML, CSS, JavaScript**
+- 🐳 **Docker & Docker Compose**
+- 🌐 **Netlify** for deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ How to Run This Locally (with Docker)
+
+```bash
+git clone https://github.com/milo0w/awa-portfolio.git
+cd awa-portfolio
+docker-compose up --build
+
+Then open http://localhost:8080 on your browser.
+
+![image](https://github.com/user-attachments/assets/1d4ee39d-91db-45b4-842d-d8a2b8137ca3)
+
+Contact Me
+nasywaurmilow@gmail.com
+https://www.linkedin.com/in/nasywa-kamila-0364b5344/
+
+I’m currently open to opportunities in AI, software development, or web-related roles.
