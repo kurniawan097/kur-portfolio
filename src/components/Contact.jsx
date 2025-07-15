@@ -17,10 +17,10 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_w91u0m5',
-            'template_aq7nidd',
+            'service_amd4sut',
+            'template_11y6q49',
             formRef.current,
-            'UdPtpaEddRbh5kHVn'
+            'SQgFt4DhfS_lu3Uus'
         )
 
         .then((result) => {
@@ -46,28 +46,28 @@ const Contact = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <motion.div animate={{ scale: [1, 1.1, 1] }} transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}>
-                        <Mail className="w-16 h-16 text-pink-400 mx-auto mb-6" />
+                        <Mail className="w-16 h-16 text-[#0074B7] mx-auto mb-6" />
                     </motion.div>
-                    <h2 className="text-4xl md:text-5xl font-bold mb-4"><span className="text-pink-400">Get In Touch</span></h2>
+                    <h2 className="text-4xl md:text-5xl font-bold mb-4"><span className="text-[#0074B7]">Get In Touch</span></h2>
                     <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">Have a question or want to work together? Leave your details and I'll get back to you.</p>
                     <form ref={formRef} onSubmit={handleSubmit} className="space-y-6 text-left">
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Name</label>
-                            <input type="text" name="name" id="name" value={formData.name} onChange={handleChange} required className="w-full bg-slate-700/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500 transition-all" placeholder="Your Name" />
+                            <input type="text" name="name" id="name" value={formData.name} onChange={handleChange} required className="w-full bg-slate-700/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0074B7] transition-all" placeholder="Your Name" />
                         </div>
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Email</label>
-                            <input type="email" name="email" id="email" value={formData.email} onChange={handleChange} required className="w-full bg-slate-700/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500 transition-all" placeholder="your.email@example.com" />
+                            <input type="email" name="email" id="email" value={formData.email} onChange={handleChange} required className="w-full bg-slate-700/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0074B7] transition-all" placeholder="your.email@example.com" />
                         </div>
                         <div>
                             <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
-                            <textarea name="message" id="message" rows="4" value={formData.message} onChange={handleChange} required className="w-full bg-slate-700/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-pink-500 transition-all" placeholder="Your message..."></textarea>
+                            <textarea name="message" id="message" rows="4" value={formData.message} onChange={handleChange} required className="w-full bg-slate-700/50 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#0074B7] transition-all" placeholder="Your message..."></textarea>
                         </div>
                         <div className="text-center pt-2">
                             {status ? (
                                 <p className="text-green-400">{status}</p>
                             ) : (
-                                <motion.button type="submit" className="group px-8 py-3 bg-pink-500 hover:bg-pink-600 rounded-full font-semibold text-white transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/25" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                                <motion.button type="submit" className="group px-8 py-3 bg-[#0074B7] hover:bg-[#0074B7] rounded-full font-semibold text-white transition-all duration-300 hover:shadow-lg hover:shadow-[#0074B7]/25" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                                     <span className="flex items-center justify-center space-x-2">
                                         <span>Send Message</span>
                                         <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

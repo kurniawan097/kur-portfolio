@@ -1,6 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Calendar, Award, Brain } from 'lucide-react';
+import {
+  MapPin,
+  GraduationCap,
+  Calendar,
+  Laptop,
+  Award,
+  Brain,
+} from "lucide-react";
 
 const About = () => {
   return (
@@ -8,10 +15,10 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-pink-400">About Me</span>
+            <span className="text-[#0074B7]">About Me</span>
           </h2>
           <motion.div 
-            className="w-24 h-1 bg-pink-400 mx-auto rounded-full" 
+            className="w-24 h-1 bg-[#0074B7] mx-auto rounded-full" 
             initial={{ scaleX: 0 }} 
             whileInView={{ scaleX: 1 }} 
             viewport={{ once: true }} 
@@ -28,17 +35,19 @@ const About = () => {
             transition={{ duration: 0.8 }}
           >
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm a passionate Information Technology student at President University with a strong interest in&nbsp;
-              <span className="text-pink-400 font-semibold">Data Science</span> and&nbsp;
-              <span className="text-fuchsia-400 font-semibold">Software Development</span>. Currently pursuing my bachelor's degree with expected graduation in 2027.
+              I'm an Information Technology professional with a strong background in systems development and technical support. In today’s rapidly evolving digital landscape, I have developed a deep interest in&nbsp;
+              <span className="text-[#0074B7] font-semibold">Science, Artificial Intelligence,</span> and&nbsp;
+              <span className="text-[#0074B7] font-semibold">Machine Learning</span> technologies.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I have extensive experience in collaborative projects and intensive bootcamps, including the&nbsp;
-              <span className="text-rose-400 font-semibold">Digital Skola Data Science Bootcamp</span>. My expertise spans data analysis, AI/ML model development, and delivering insights through data visualization.
+              For me, data is more than just numbers; it is a strategic asset that can be leveraged to generate insights, predictions, and real-world solutions to various&nbsp;
+              <span className="text-[#0074B7] font-semibold">business and technical problems</span>. and&nbsp; This interest drives me to continuously learn how
+              <span className="text-[#0074B7] font-semibold">data analytics, machine learning modeling, and AI applications</span> work in real-world contexts.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm skilled in analyzing complex datasets, building intelligent systems, and working with cutting-edge technologies like <span className="text-purple-400 font-semibold">computer vision</span>, <span className="text-pink-400 font-semibold">natural language processing</span>, and&nbsp;
-              <span className="text-fuchsia-400 font-semibold">machine learning</span>. Always eager to learn new technologies and tackle challenging projects.
+              By combining my technical expertise in IT support and software development, I aim to bridge the gap between technology infrastructure and data-driven innovation. I believe that the synergy between&nbsp;
+              <span className="text-[#0074B7] font-semibold">IT systems</span>&nbsp; knowledge and&nbsp;
+              <span className="text-[#0074B7] font-semibold">data analysis</span> skills is essential in addressing both current and future digital challenges.
             </p>
           </motion.div>
           
@@ -49,23 +58,40 @@ const About = () => {
             viewport={{ once: true }} 
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <div className="bg-pink-500/10 rounded-2xl p-8 backdrop-blur-sm border border-pink-500/20">
+            <div className="bg-[#0074B7]/10 rounded-2xl p-8 backdrop-blur-sm border border-[#0074B7]/20">
               <div className="space-y-6">
+                {/* Lokasi */}
                 <div className="flex items-center space-x-4">
-                  <MapPin className="w-6 h-6 text-pink-400" />
-                  <span className="text-gray-300">Bekasi Regency, West Java, Indonesia</span>
+                  <MapPin className="w-6 h-6 text-[#0074B7]" />
+                  <span className="text-gray-300">Pekanbaru, Riau, Indonesia</span>
                 </div>
+
+                {/* Pendidikan */}
                 <div className="flex items-center space-x-4">
-                  <Calendar className="w-6 h-6 text-fuchsia-400" />
-                  <span className="text-gray-300">Expected Graduation: 2027</span>
+                  <GraduationCap className="w-6 h-6 text-emerald-400" />
+                  <span className="text-gray-300">
+                    Universitas Riau — Bachelor's in Informatics Engineering
+                  </span>
                 </div>
+
+                {/* Pekerjaan saat ini */}
+                <div className="flex items-center space-x-4">
+                  <Laptop className="w-6 h-6 text-sky-400" />
+                  <span className="text-gray-300">
+                    IT Support & Software Development
+                  </span>
+                </div>
+
+                {/* Minat: Data Science Bootcamp 
                 <div className="flex items-center space-x-4">
                   <Award className="w-6 h-6 text-rose-400" />
                   <span className="text-gray-300">Data Science Bootcamp Graduate</span>
-                </div>
+                </div>*/}
+
+                {/* Minat: AI */}
                 <div className="flex items-center space-x-4">
                   <Brain className="w-6 h-6 text-purple-400" />
-                  <span className="text-gray-300">AI Research Participant</span>
+                  <span className="text-gray-300">Interested in Data Science & AI/ML</span>
                 </div>
               </div>
             </div>

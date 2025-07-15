@@ -28,19 +28,19 @@ const Navbar = ({ sections = [], activeSection, scrollToSection }) => {
             className="flex items-center space-x-2 cursor-pointer" 
             onClick={() => scrollToSection('home')}
           >
-            <Flower2 className="w-8 h-8 text-pink-400" />
-            <span className="text-xl font-bold text-pink-400">Nasywa Kamila</span>
+            {/*<Flower2 className="w-8 h-8 text-pink-400" />*/}
+            <span className="text-xl font-bold text-[#0074B7]">Kurniawan</span>
           </div>
           <div className="hidden md:flex space-x-8">
             {sections.map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
-                className="relative text-gray-300 hover:text-pink-400 transition-colors duration-300 group"
+                className="relative text-gray-300 hover:text-[#0074B7] transition-colors duration-300 group"
               >
                 {item.charAt(0).toUpperCase() + item.slice(1)}
                 <span 
-                  className={`absolute -bottom-1 left-0 w-full h-0.5 bg-pink-400 transition-all duration-300 transform origin-left ${
+                  className={`absolute -bottom-1 left-0 w-full h-0.5 bg-[#0074B7] transition-all duration-300 transform origin-left ${
                     activeSection === item ? 'scale-x-100' : 'scale-x-0'
                   } group-hover:scale-x-100`}
                 ></span>
