@@ -7,15 +7,15 @@ import {Globe, Smartphone, ExternalLink
 const Projects = () => {
     const projectsData = [
             {
-                title: "Company Profile Website – Visiyosindo",
-                description: "A responsive company profile website designed as a landing page to showcase services, solutions, and company information for PT. Visiyosindo Teknologi Indonesia.",
+                title: "Company Profile Website",
+                description: "A responsive company profile website designed as a landing page to showcase services, solutions, and company information for PT. Visi Yosindo Medikal.",
                 tech: ["WordPress"],
                 icon: Globe,
                 color: "bg-blue-600",
                 link: "https://visiyosindo.com/"
             },
             {
-                title: "Office Internal System – Visiyosindo",
+                title: "Office Internal System",
                 description: "An internal web-based system for managing daily office operations such as attendance, document workflows, and inventory. Developed for staff productivity and paperless environment.",
                 tech: ["PHP", "MySQL"],
                 icon: Globe,
